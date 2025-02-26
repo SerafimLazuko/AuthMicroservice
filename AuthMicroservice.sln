@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F21C406-6277-469E-BF00-6EFE5D240AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Domain", "src\Auth.Domain\Auth.Domain.csproj", "{0FDC727A-DF3F-4ADB-BA7C-C854DCD47836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Infrastructure", "src\Auth.Infrastructure\Auth.Infrastructure.csproj", "{7F305273-A1AA-4887-8A12-FE1F109F878D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FDC727A-DF3F-4ADB-BA7C-C854DCD47836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDC727A-DF3F-4ADB-BA7C-C854DCD47836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDC727A-DF3F-4ADB-BA7C-C854DCD47836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDC727A-DF3F-4ADB-BA7C-C854DCD47836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F305273-A1AA-4887-8A12-FE1F109F878D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F305273-A1AA-4887-8A12-FE1F109F878D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F305273-A1AA-4887-8A12-FE1F109F878D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F305273-A1AA-4887-8A12-FE1F109F878D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FDC727A-DF3F-4ADB-BA7C-C854DCD47836} = {2F21C406-6277-469E-BF00-6EFE5D240AB6}
+		{7F305273-A1AA-4887-8A12-FE1F109F878D} = {2F21C406-6277-469E-BF00-6EFE5D240AB6}
+	EndGlobalSection
+EndGlobal
